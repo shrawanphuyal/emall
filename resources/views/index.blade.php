@@ -4,6 +4,8 @@
 
 @section('content')
 
+  @include('extras.index_pop_up')
+
   <div id="front-page-section-area">
     <aside class="section section-featured-slider">
       <div class="container">
