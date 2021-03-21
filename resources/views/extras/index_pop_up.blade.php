@@ -4,17 +4,15 @@
         .content {
             width: 50%;
             border: none;
-            background-color: #fbfdfe;
             margin: auto;
             padding: 15px;
             border-radius: 10px;
             overflow: hidden;
             text-align: center;
-            box-shadow: 1px 1px 14px 3px rgba(0, 0, 0, 0.75);
         }
 
         .close {
-            color: #aaa;
+            color: #FFFFFF;
             float: right;
             font-size: 30px;
             font-weight: 700
@@ -49,9 +47,7 @@
             <!-- For the close button -->
             <span class="close" id='close'>&times;</span>
             <!-- Actual content -->
-            <div>
-                <h1>This is a pop up modal</h1>
-            </div>
+                <img src="{{asset('holi.jpeg')}}" alt="image"/>
         </div>
     </div>
 </div>
