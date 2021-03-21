@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Emall | Cart</title>
+    <meta name="description" content="Shopping App">
+    
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.ec97efee.css" as="style"><link rel="preload" href="/docs/assets/js/app.f40c2a34.js" as="script"><link rel="preload" href="/docs/assets/js/6.a12faddb.js" as="script"><link rel="preload" href="/docs/assets/js/12.2b41116d.js" as="script"><link rel="preload" href="/docs/assets/js/14.4a00a51a.js" as="script"><link rel="prefetch" href="/docs/assets/js/7.7fc4757f.js"><link rel="prefetch" href="/docs/assets/js/1.e4d7be27.js"><link rel="prefetch" href="/docs/assets/js/2.d03dfdbb.js"><link rel="prefetch" href="/docs/assets/js/3.6b342e5f.js"><link rel="prefetch" href="/docs/assets/js/4.68c9a374.js"><link rel="prefetch" href="/docs/assets/js/5.bdccfe59.js"><link rel="prefetch" href="/docs/assets/js/8.7ac40370.js"><link rel="prefetch" href="/docs/assets/js/9.4cdc41a7.js"><link rel="prefetch" href="/docs/assets/js/10.8ad93d97.js"><link rel="prefetch" href="/docs/assets/js/11.0c3d6b71.js"><link rel="prefetch" href="/docs/assets/js/13.5e6640a2.js"><link rel="prefetch" href="/docs/assets/js/15.eae5d92b.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.ec97efee.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/docs/" class="home-link router-link-active"><!----><span class="site-name">
+      Emall
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><!----></div></header><div class="sidebar"><!----><ul class="sidebar-links"><li><a href="/docs/" class="sidebar-link">Home</a></li><li><a href="/docs/authentication/" class="sidebar-link">Authentication</a></li><li><a href="/docs/slider/" class="sidebar-link">Slider</a></li><li><a href="/docs/news/" class="sidebar-link">News</a></li><li><a href="/docs/product/" class="sidebar-link">Product</a></li><li><a href="/docs/category/" class="sidebar-link">Category</a></li><li><a href="/docs/cart/" class="active sidebar-link">Cart</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/cart/#checkout" class="sidebar-link">Checkout</a></li><li class="sidebar-sub-header"><a href="/docs/cart/#my-orders" class="sidebar-link">My orders</a></li></ul></li><li><a href="/docs/notification/" class="sidebar-link">Notification</a></li></ul></div><div class="page"><div class="content"><h1 id="cart"><a href="#cart" aria-hidden="true" class="header-anchor">#</a> Cart</h1><h2 id="checkout"><a href="#checkout" aria-hidden="true" class="header-anchor">#</a> Checkout</h2><div><div data-v-1e7427c8><table class="table" data-v-1e7427c8><tbody data-v-1e7427c8><tr data-v-1e7427c8><td data-v-1e7427c8>METHOD</td><td data-v-1e7427c8>POST</td></tr><tr data-v-1e7427c8><td data-v-1e7427c8>URL</td><td data-v-1e7427c8><a href='http://emall.com.np/api/checkout' target='_blank'>http://emall.com.np/api/checkout</a></td></tr><tr data-v-1e7427c8><td data-v-1e7427c8>PARAMS</td><td data-v-1e7427c8><ul data-v-1e7427c8><li class="required" data-v-1e7427c8>[String] phone*</li><li class="required" data-v-1e7427c8>[String] address*</li><li class="required" data-v-1e7427c8>[Array] cartItems*</li></ul></td></tr><tr data-v-1e7427c8><td data-v-1e7427c8>AUTH</td><td data-v-1e7427c8>true</td></tr><!----><!----><tr data-v-1e7427c8><td data-v-1e7427c8>HEADERS</td><td data-v-1e7427c8><ul data-v-1e7427c8><li data-v-1e7427c8>Accept: application/json</li><li data-v-1e7427c8>Authorization: Bearer {token}</li></ul></td></tr></tbody></table></div></div><h4 id="“cartitems”-format-must-be-as-below"><a href="#“cartitems”-format-must-be-as-below" aria-hidden="true" class="header-anchor">#</a> “cartItems” format must be as below</h4><pre class="language-json"><code><span class="token punctuation">{</span>
+	<span class="token property">&quot;cartItems&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>
+			<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">4</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>
+			<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span> // if there is no size<span class="token punctuation">,</span> send <span class="token number">0</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><h4 id="success-response"><a href="#success-response" aria-hidden="true" class="header-anchor">#</a> Success Response</h4><pre class="language-json"><code><span class="token punctuation">{</span>
+	<span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+	<span class="token property">&quot;message&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Order successfully placed. We will contact you soon.&quot;</span><span class="token punctuation">,</span>
+	<span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token number">200</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="my-orders"><a href="#my-orders" aria-hidden="true" class="header-anchor">#</a> My orders</h2><div><div data-v-1e7427c8><table class="table" data-v-1e7427c8><tbody data-v-1e7427c8><tr data-v-1e7427c8><td data-v-1e7427c8>METHOD</td><td data-v-1e7427c8>GET</td></tr><tr data-v-1e7427c8><td data-v-1e7427c8>URL</td><td data-v-1e7427c8><a href='http://emall.com.np/api/my-orders' target='_blank'>http://emall.com.np/api/my-orders</a></td></tr><tr data-v-1e7427c8><td data-v-1e7427c8>AUTH</td><td data-v-1e7427c8>true</td></tr><!----><tr data-v-1e7427c8><td data-v-1e7427c8>HEADERS</td><td data-v-1e7427c8><ul data-v-1e7427c8><li data-v-1e7427c8>Accept: application/json</li><li data-v-1e7427c8>Authorization: Bearer {token}</li></ul></td></tr></tbody></table></div></div><h4 id="response"><a href="#response" aria-hidden="true" class="header-anchor">#</a> Response</h4><pre class="language-json"><code><span class="token punctuation">{</span>
+	<span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>
+			<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;pending&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;products&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token punctuation">{</span>
+					<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Teddy Bear&quot;</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;rate&quot;</span><span class="token operator">:</span> <span class="token number">1222</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+				<span class="token punctuation">}</span><span class="token punctuation">,</span>
+				<span class="token punctuation">{</span>
+					<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Cake&quot;</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;rate&quot;</span><span class="token operator">:</span> <span class="token number">3475</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">]</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>
+			<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;processing&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;products&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token punctuation">{</span>
+					<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Teddy Bear&quot;</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;rate&quot;</span><span class="token operator">:</span> <span class="token number">1222</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+				<span class="token punctuation">}</span><span class="token punctuation">,</span>
+				<span class="token punctuation">{</span>
+					<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Cake&quot;</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;rate&quot;</span><span class="token operator">:</span> <span class="token number">3475</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">]</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>
+			<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;status&quot;</span><span class="token operator">:</span> <span class="token string">&quot;delivered&quot;</span><span class="token punctuation">,</span>
+			<span class="token property">&quot;products&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+				<span class="token punctuation">{</span>
+					<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Teddy Bear&quot;</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;rate&quot;</span><span class="token operator">:</span> <span class="token number">1222</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+				<span class="token punctuation">}</span><span class="token punctuation">,</span>
+				<span class="token punctuation">{</span>
+					<span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Cake&quot;</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;rate&quot;</span><span class="token operator">:</span> <span class="token number">3475</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;quantity&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+					<span class="token property">&quot;size&quot;</span><span class="token operator">:</span> <span class="token number">0</span>
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">]</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><!----><div class="content page-nav"><p class="inner"><span class="prev">
+        ← <a href="/docs/category/" class="prev">
+          Category
+        </a></span><span class="next"><a href="/docs/notification/">
+          Notification
+        </a> →
+      </span></p></div></div></div></div>
+    <script src="/docs/assets/js/6.a12faddb.js" defer></script><script src="/docs/assets/js/12.2b41116d.js" defer></script><script src="/docs/assets/js/14.4a00a51a.js" defer></script><script src="/docs/assets/js/app.f40c2a34.js" defer></script>
+  </body>
+</html>

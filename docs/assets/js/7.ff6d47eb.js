@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],[,function(o,n,t){"use strict";t.r(n);var p={name:"root-comp",props:["items"],data:function(){return{rootUrl:"http://emall.com.np/api/"}}},a=t(0),e=Object(a.a)(p,void 0,void 0,!1,null,null,null);n.default=e.exports}]]);

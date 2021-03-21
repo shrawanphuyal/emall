@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],[,function(n,o,t){"use strict";t.r(o);var e={name:"root-comp",props:["items"],data:function(){return{rootUrl:"http://thesunbi.net/demo/cinemaghar/api/"}}},a=t(0),i=Object(a.a)(e,void 0,void 0,!1,null,null,null);o.default=i.exports}]]);
